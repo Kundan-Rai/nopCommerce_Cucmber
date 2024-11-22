@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="testRunner.TestRunner" time="29.156" tests="6" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\kunda\.cache\selenium\chromedriver\win64\131.0.6778.85\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="E:\Cucumber_SDET-QA\nopCommerce_Cucumber\target\test-classes;E:\Cucumber_SDET-QA\nopCommerce_Cucumber\target\classes;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\kunda\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\kunda\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\kunda\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\kunda\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kunda\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\kunda\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\kunda\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\kunda\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\kunda\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kunda\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kunda\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\kunda\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\kunda\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\kunda\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\kunda\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\kunda\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\kunda\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\kunda\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\kunda\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\kunda\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\kunda\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\kunda\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\kunda\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\kunda\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\kunda\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\kunda\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\kunda\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\kunda\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\kunda\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\kunda\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\kunda\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\kunda\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\kunda\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\kunda\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\kunda\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\kunda\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
+    <property name="sun.java.command" value="C:\Users\kunda\AppData\Local\Temp\surefire9552840610848151765\surefirebooter-20241122215559394_3.jar C:\Users\kunda\AppData\Local\Temp\surefire9552840610848151765 2024-11-22T21-55-59_222-jvmRun1 surefire-20241122215559394_1tmp surefire_0-20241122215559394_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="E:\Cucumber_SDET-QA\nopCommerce_Cucumber\target\test-classes;E:\Cucumber_SDET-QA\nopCommerce_Cucumber\target\classes;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-java\7.15.0\cucumber-java-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-core\7.15.0\cucumber-core-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-gherkin\7.15.0\cucumber-gherkin-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-gherkin-messages\7.15.0\cucumber-gherkin-messages-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\gherkin\26.2.0\gherkin-26.2.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\messages\22.0.0\messages-22.0.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\tag-expressions\6.0.0\tag-expressions-6.0.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-expressions\17.0.1\cucumber-expressions-17.0.1.jar;C:\Users\kunda\.m2\repository\io\cucumber\datatable\7.15.0\datatable-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-plugin\7.15.0\cucumber-plugin-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\docstring\7.15.0\docstring-7.15.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\html-formatter\20.4.0\html-formatter-20.4.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\junit-xml-formatter\0.2.0\junit-xml-formatter-0.2.0.jar;C:\Users\kunda\.m2\repository\io\cucumber\ci-environment\10.0.0\ci-environment-10.0.0.jar;C:\Users\kunda\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\kunda\.m2\repository\io\cucumber\cucumber-testng\7.15.0\cucumber-testng-7.15.0.jar;C:\Users\kunda\.m2\repository\org\testng\testng\7.8.0\testng-7.8.0.jar;C:\Users\kunda\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\kunda\.m2\repository\org\webjars\jquery\3.6.1\jquery-3.6.1.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-java\4.26.0\selenium-java-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-api\4.26.0\selenium-api-4.26.0.jar;C:\Users\kunda\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.26.0\selenium-chrome-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.26.0\selenium-chromium-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-json\4.26.0\selenium-json-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.26.0\selenium-manager-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v128\4.26.0\selenium-devtools-v128-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v129\4.26.0\selenium-devtools-v129-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v130\4.26.0\selenium-devtools-v130-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.26.0\selenium-devtools-v85-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.26.0\selenium-edge-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.26.0\selenium-firefox-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-http\4.26.0\selenium-http-4.26.0.jar;C:\Users\kunda\.m2\repository\dev\failsafe\failsafe\3.3.2\failsafe-3.3.2.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.26.0\selenium-ie-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.26.0\selenium-remote-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\com\google\guava\guava\33.3.1-jre\guava-33.3.1-jre.jar;C:\Users\kunda\.m2\repository\com\google\guava\failureaccess\1.0.2\failureaccess-1.0.2.jar;C:\Users\kunda\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\kunda\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\kunda\.m2\repository\org\checkerframework\checker-qual\3.43.0\checker-qual-3.43.0.jar;C:\Users\kunda\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\semconv\opentelemetry-semconv\1.25.0-alpha\opentelemetry-semconv-1.25.0-alpha.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-api\1.43.0\opentelemetry-api-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-context\1.43.0\opentelemetry-context-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.43.0\opentelemetry-exporter-logging-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.43.0\opentelemetry-sdk-common-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.43.0\opentelemetry-sdk-extension-autoconfigure-spi-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.43.0\opentelemetry-sdk-extension-autoconfigure-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-api-incubator\1.43.0-alpha\opentelemetry-api-incubator-1.43.0-alpha.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.43.0\opentelemetry-sdk-trace-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.43.0\opentelemetry-sdk-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.43.0\opentelemetry-sdk-metrics-1.43.0.jar;C:\Users\kunda\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.43.0\opentelemetry-sdk-logs-1.43.0.jar;C:\Users\kunda\.m2\repository\net\bytebuddy\byte-buddy\1.15.7\byte-buddy-1.15.7.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-os\4.26.0\selenium-os-4.26.0.jar;C:\Users\kunda\.m2\repository\org\apache\commons\commons-exec\1.4.0\commons-exec-1.4.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.26.0\selenium-safari-driver-4.26.0.jar;C:\Users\kunda\.m2\repository\org\seleniumhq\selenium\selenium-support\4.26.0\selenium-support-4.26.0.jar;C:\Users\kunda\.m2\repository\io\github\bonigarcia\webdrivermanager\5.9.2\webdrivermanager-5.9.2.jar;C:\Users\kunda\.m2\repository\org\slf4j\slf4j-api\2.0.13\slf4j-api-2.0.13.jar;C:\Users\kunda\.m2\repository\com\google\code\gson\gson\2.11.0\gson-2.11.0.jar;C:\Users\kunda\.m2\repository\com\google\errorprone\error_prone_annotations\2.27.0\error_prone_annotations-2.27.0.jar;C:\Users\kunda\.m2\repository\com\github\docker-java\docker-java\3.4.0\docker-java-3.4.0.jar;C:\Users\kunda\.m2\repository\com\github\docker-java\docker-java-core\3.4.0\docker-java-core-3.4.0.jar;C:\Users\kunda\.m2\repository\com\github\docker-java\docker-java-api\3.4.0\docker-java-api-3.4.0.jar;C:\Users\kunda\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\kunda\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\kunda\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\kunda\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\kunda\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.4.0\docker-java-transport-httpclient5-3.4.0.jar;C:\Users\kunda\.m2\repository\com\github\docker-java\docker-java-transport\3.4.0\docker-java-transport-3.4.0.jar;C:\Users\kunda\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\kunda\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\kunda\.m2\repository\org\apache\commons\commons-lang3\3.15.0\commons-lang3-3.15.0.jar;C:\Users\kunda\.m2\repository\org\apache\commons\commons-compress\1.26.2\commons-compress-1.26.2.jar;C:\Users\kunda\.m2\repository\commons-codec\commons-codec\1.17.0\commons-codec-1.17.0.jar;C:\Users\kunda\.m2\repository\commons-io\commons-io\2.16.1\commons-io-2.16.1.jar;C:\Users\kunda\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\kunda\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\kunda\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\kunda"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2023-04-18"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-17"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="E:\Cucumber_SDET-QA\nopCommerce_Cucumber"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\kunda\AppData\Local\Temp\surefire9552840610848151765\surefirebooter-20241122215559394_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="17.0.7+8-LTS-224"/>
+    <property name="user.name" value="kunda"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\kunda\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\kunda\AppData\Local\Temp\"/>
+    <property name="java.version" value="17.0.7"/>
+    <property name="user.dir" value="E:\Cucumber_SDET-QA\nopCommerce_Cucumber"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Maven\apache-maven-3.9.9/bin;C:\Program Files\Java\jdk-17/bin;C:\Program Files\Java\jdk-17/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-17\bin;C:\MinGW\bin;C:\Program Files\HP\HP One Agent;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.9.9\bin;C:\Program Files\nodejs\;C:\Program Files\nodejs\node_modules;;C:\Program Files\Docker\Docker\resources\bin;C:\Users\kunda\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\kunda\AppData\Local\Programs\Python\Python312\;C:\Users\kunda\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.1\bin;;C:\Users\kunda\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\kunda\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="17.0.7+8-LTS-224"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="runScenario[&quot;Add a new customer&quot;, &quot;Customers&quot;](1)" classname="testRunner.TestRunner" time="3.252">
+    <failure message="expected [Dashboard / nopCommerce administration] but found [Your store. Login]" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.NopCommerceSteps.user_can_see_the_dashboard(NopCommerceSteps.java:137)
+	at ✽.User can see the dashboard(file:///E:/Cucumber_SDET-QA/nopCommerce_Cucumber/features/AddNewCustomers.feature:10)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+Scenario: Add a new customer                                                                 # features/AddNewCustomers.feature:16
+  Given User launches chrome browser                                                         # stepDefinitions.NopCommerceSteps.user_launches_chrome_browser()
+  When User opens URL "https://admin-demo.nopcommerce.com/login"                             # stepDefinitions.NopCommerceSteps.user_opens_url(java.lang.String)
+  And User enters email as "admin@yourstore.com" and password as "admin"                     # stepDefinitions.NopCommerceSteps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  And User clicks on login button                                                            # stepDefinitions.NopCommerceSteps.user_clicks_on_login_button()
+  Then User can see the dashboard                                                            # stepDefinitions.NopCommerceSteps.user_can_see_the_dashboard()
+      java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.NopCommerceSteps.user_can_see_the_dashboard(NopCommerceSteps.java:137)
+	at âœ½.User can see the dashboard(file:///E:/Cucumber_SDET-QA/nopCommerce_Cucumber/features/AddNewCustomers.feature:10)
+
+  When User clicks on Customers menu                                                         # stepDefinitions.NopCommerceSteps.user_clicks_on_customers_menu()
+  And User clicks on Customers menu item                                                     # stepDefinitions.NopCommerceSteps.user_clicks_on_customers_menu_item()
+  And User clicks on Add new button                                                          # stepDefinitions.NopCommerceSteps.user_clicks_on_add_new_button()
+  Then User can see the Add a new customer page                                              # stepDefinitions.NopCommerceSteps.user_can_see_the_add_a_new_customer_page()
+  When User enters Customer info                                                             # stepDefinitions.NopCommerceSteps.user_enters_customer_info()
+  And User clicks on Save button                                                             # stepDefinitions.NopCommerceSteps.user_clicks_on_save_button()
+  Then User can see the confirmation message "The new customer has been added successfully." # stepDefinitions.NopCommerceSteps.user_can_see_the_confirmation_message(java.lang.String)
+  And User closes the browser                                                                # stepDefinitions.NopCommerceSteps.User_closes_the_browser()
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+Nov 22, 2024 9:56:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search Customer by Email id&quot;, &quot;Customers&quot;](2)" classname="testRunner.TestRunner" time="6.5">
+    <system-out><![CDATA[
+@sanity
+Scenario: Search Customer by Email id                                    # features/AddNewCustomers.feature:27
+  Given User launches chrome browser                                     # stepDefinitions.NopCommerceSteps.user_launches_chrome_browser()
+  When User opens URL "https://admin-demo.nopcommerce.com/login"         # stepDefinitions.NopCommerceSteps.user_opens_url(java.lang.String)
+  And User enters email as "admin@yourstore.com" and password as "admin" # stepDefinitions.NopCommerceSteps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  And User clicks on login button                                        # stepDefinitions.NopCommerceSteps.user_clicks_on_login_button()
+  Then User can see the dashboard                                        # stepDefinitions.NopCommerceSteps.user_can_see_the_dashboard()
+  When User clicks on Customers menu                                     # stepDefinitions.NopCommerceSteps.user_clicks_on_customers_menu()
+  And User clicks on Customers menu item                                 # stepDefinitions.NopCommerceSteps.user_clicks_on_customers_menu_item()
+  Then User can see the Customers page                                   # stepDefinitions.NopCommerceSteps.user_can_see_the_customers_page()
+  When User enters customer email                                        # stepDefinitions.NopCommerceSteps.user_enters_customer_email()
+  And User clicks on Search button                                       # stepDefinitions.NopCommerceSteps.user_clicks_on_search_button()
+  Then User should found email in the search table                       # stepDefinitions.NopCommerceSteps.user_should_found_email_in_the_search_table()
+  And User closes the browser                                            # stepDefinitions.NopCommerceSteps.User_closes_the_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 22, 2024 9:56:04 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Search Customer by Name&quot;, &quot;Customers&quot;](3)" classname="testRunner.TestRunner" time="6.715">
+    <system-out><![CDATA[
+@regression @sanity
+Scenario: Search Customer by Name                                        # features/AddNewCustomers.feature:37
+  Given User launches chrome browser                                     # stepDefinitions.NopCommerceSteps.user_launches_chrome_browser()
+  When User opens URL "https://admin-demo.nopcommerce.com/login"         # stepDefinitions.NopCommerceSteps.user_opens_url(java.lang.String)
+  And User enters email as "admin@yourstore.com" and password as "admin" # stepDefinitions.NopCommerceSteps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  And User clicks on login button                                        # stepDefinitions.NopCommerceSteps.user_clicks_on_login_button()
+  Then User can see the dashboard                                        # stepDefinitions.NopCommerceSteps.user_can_see_the_dashboard()
+  When User clicks on Customers menu                                     # stepDefinitions.NopCommerceSteps.user_clicks_on_customers_menu()
+  And User clicks on Customers menu item                                 # stepDefinitions.NopCommerceSteps.user_clicks_on_customers_menu_item()
+  Then User can see the Customers page                                   # stepDefinitions.NopCommerceSteps.user_can_see_the_customers_page()
+  When User enters customer first name                                   # stepDefinitions.NopCommerceSteps.user_enters_customer_first_name()
+  And User enters customer last name                                     # stepDefinitions.NopCommerceSteps.user_enters_customer_last_name()
+  And User clicks on Search button                                       # stepDefinitions.NopCommerceSteps.user_clicks_on_search_button()
+  Then User should found name in the search table                        # stepDefinitions.NopCommerceSteps.user_should_found_name_in_the_search_table()
+  And User closes the browser                                            # stepDefinitions.NopCommerceSteps.User_closes_the_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 22, 2024 9:56:10 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Successful Login With Valid Credentials&quot;, &quot;Login&quot;](4)" classname="testRunner.TestRunner" time="4.816">
+    <system-out><![CDATA[
+@sanity
+Scenario: Successful Login With Valid Credentials                        # features/Login.feature:5
+  Given User launches chrome browser                                     # stepDefinitions.NopCommerceSteps.user_launches_chrome_browser()
+  When User opens URL "https://admin-demo.nopcommerce.com/login"         # stepDefinitions.NopCommerceSteps.user_opens_url(java.lang.String)
+  And User enters email as "admin@yourstore.com" and password as "admin" # stepDefinitions.NopCommerceSteps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  And User clicks on login button                                        # stepDefinitions.NopCommerceSteps.user_clicks_on_login_button()
+  Then Page title should be "Dashboard / nopCommerce administration"     # stepDefinitions.NopCommerceSteps.page_title_should_be(java.lang.String)
+  When User clicks on the logout link                                    # stepDefinitions.NopCommerceSteps.user_clicks_on_the_logout_link()
+  Then Page title should be "Your store. Login"                          # stepDefinitions.NopCommerceSteps.page_title_should_be(java.lang.String)
+  And User closes the browser                                            # stepDefinitions.NopCommerceSteps.User_closes_the_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 22, 2024 9:56:17 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login Data Driven&quot;, &quot;Login&quot;](5)" classname="testRunner.TestRunner" time="5.066">
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Login Data Driven                                      # features/Login.feature:29
+  Given User launches chrome browser                                     # stepDefinitions.NopCommerceSteps.user_launches_chrome_browser()
+  When User opens URL "https://admin-demo.nopcommerce.com/login"         # stepDefinitions.NopCommerceSteps.user_opens_url(java.lang.String)
+  And User enters email as "admin@yourstore.com" and password as "admin" # stepDefinitions.NopCommerceSteps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  And User clicks on login button                                        # stepDefinitions.NopCommerceSteps.user_clicks_on_login_button()
+  Then Page title should be "Dashboard / nopCommerce administration"     # stepDefinitions.NopCommerceSteps.page_title_should_be(java.lang.String)
+  When User clicks on the logout link                                    # stepDefinitions.NopCommerceSteps.user_clicks_on_the_logout_link()
+  Then Page title should be "Your store. Login"                          # stepDefinitions.NopCommerceSteps.page_title_should_be(java.lang.String)
+  And User closes the browser                                            # stepDefinitions.NopCommerceSteps.User_closes_the_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 22, 2024 9:56:22 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+  <testcase name="runScenario[&quot;Login Data Driven&quot;, &quot;Login&quot;](6)" classname="testRunner.TestRunner" time="1.815">
+    <failure message="Login is unsuccessful" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: Login is unsuccessful
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepDefinitions.NopCommerceSteps.page_title_should_be(NopCommerceSteps.java:111)
+	at ✽.Page title should be "Dashboard / nopCommerce administration"(file:///E:/Cucumber_SDET-QA/nopCommerce_Cucumber/features/Login.feature:22)
+]]></failure>
+    <system-out><![CDATA[
+@regression
+Scenario Outline: Login Data Driven                                          # features/Login.feature:30
+  Given User launches chrome browser                                         # stepDefinitions.NopCommerceSteps.user_launches_chrome_browser()
+  When User opens URL "https://admin-demo.nopcommerce.com/login"             # stepDefinitions.NopCommerceSteps.user_opens_url(java.lang.String)
+  And User enters email as "admin1@yourstore.com" and password as "admin123" # stepDefinitions.NopCommerceSteps.user_enters_email_as_and_password_as(java.lang.String,java.lang.String)
+  And User clicks on login button                                            # stepDefinitions.NopCommerceSteps.user_clicks_on_login_button()
+  Then Page title should be "Dashboard / nopCommerce administration"         # stepDefinitions.NopCommerceSteps.page_title_should_be(java.lang.String)
+      java.lang.AssertionError: Login is unsuccessful
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepDefinitions.NopCommerceSteps.page_title_should_be(NopCommerceSteps.java:111)
+	at âœ½.Page title should be "Dashboard / nopCommerce administration"(file:///E:/Cucumber_SDET-QA/nopCommerce_Cucumber/features/Login.feature:22)
+
+  When User clicks on the logout link                                        # stepDefinitions.NopCommerceSteps.user_clicks_on_the_logout_link()
+  Then Page title should be "Your store. Login"                              # stepDefinitions.NopCommerceSteps.page_title_should_be(java.lang.String)
+  And User closes the browser                                                # stepDefinitions.NopCommerceSteps.User_closes_the_browser()
+]]></system-out>
+    <system-err><![CDATA[Nov 22, 2024 9:56:27 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 131, returning the closest version; found: 130; Please update to a Selenium version that supports CDP version 131
+]]></system-err>
+  </testcase>
+</testsuite>

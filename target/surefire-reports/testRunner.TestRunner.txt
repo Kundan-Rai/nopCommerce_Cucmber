@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: testRunner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 29.16 s <<< FAILURE! -- in testRunner.TestRunner
+testRunner.TestRunner.runScenario["Add a new customer", "Customers"](1) -- Time elapsed: 3.252 s <<< FAILURE!
+java.lang.AssertionError: expected [Dashboard / nopCommerce administration] but found [Your store. Login]
+	at org.testng.Assert.fail(Assert.java:111)
+	at org.testng.Assert.failNotEquals(Assert.java:1578)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:150)
+	at org.testng.Assert.assertEquals(Assert.java:132)
+	at org.testng.Assert.assertEquals(Assert.java:656)
+	at org.testng.Assert.assertEquals(Assert.java:666)
+	at stepDefinitions.NopCommerceSteps.user_can_see_the_dashboard(NopCommerceSteps.java:137)
+	at ✽.User can see the dashboard(file:///E:/Cucumber_SDET-QA/nopCommerce_Cucumber/features/AddNewCustomers.feature:10)
+
+testRunner.TestRunner.runScenario["Login Data Driven", "Login"](6) -- Time elapsed: 1.815 s <<< FAILURE!
+java.lang.AssertionError: Login is unsuccessful
+	at org.testng.Assert.fail(Assert.java:111)
+	at stepDefinitions.NopCommerceSteps.page_title_should_be(NopCommerceSteps.java:111)
+	at ✽.Page title should be "Dashboard / nopCommerce administration"(file:///E:/Cucumber_SDET-QA/nopCommerce_Cucumber/features/Login.feature:22)
+
